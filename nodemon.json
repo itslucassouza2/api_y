@@ -1,0 +1,17 @@
+{
+  "env": {
+    "MYSQL_USER": "admin",
+    "MYSQL_PWRD": "12345678",
+    "MYSQL_DB": "ecommerce",
+    "MYSQL_HOST": "database-test-1.cluster-cdvhnuavi5g5.us-east-1.rds.amazonaws.com",
+    "MYSQL_PORT": 3306,
+    "SECRET": "fUke3hxpiPp5EDS4n-8MaSN158ysFTt-vW4s1cEPlsPgqppoBn1Sqhq_I-xv-Z4m",
+
+    "LATAM_EMAIL": "admin@yiyigames.com",
+    "LATAM_PASSWORD": "ha8a8hiehauwa93a0hau3h80qabnw0iawu0ahw",
+
+    "AQUIPAGA_USER": "yiyiapi",
+    "AQUIPAGA_PASSWORD": "rPE4vuKh^@7vaIT5&J8W",
+    "AQUIPAGA_TKEY": "8543A19B-CC7A-4BD4-A538-30BB5DABE0B0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "ygames_clientapi",
+    "version": "1.0.0",
+    "description": "API client",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "./node_modules/pm2/bin/pm2-runtime server.js",
+        "zip": "git archive -v -o deploy.zip --format=zip HEAD"
+    },
+    "author": "https://leocaliope.dev",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "body-parser": "^1.19.1",
+        "cors": "^2.8.5",
+        "dotenv": "^14.3.2",
+        "express": "^4.17.2",
+        "express-oauth2-jwt-bearer": "^1.1.0",
+        "express-openid-connect": "^2.6.0",
+        "externalip": "^1.0.2",
+        "jsonwebtoken": "^8.5.1",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15",
+        "pm2": "^5.1.2"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
